@@ -1,0 +1,14 @@
+# Initialise boids_number
+boids_number: 50
+
+# Initialise random generator parameters for boids
+x_pos_range: [-450, 50.0]
+y_pos_range: [300.0, 600.0]
+x_vel_range: [0, 10.0]
+y_vel_range: [-20.0, 20.0]
+
+# Update boids parameters
+flock_attraction: 0.01
+avoidance_radius: 100
+formation_flying_radius: 10000
+speed_matching_strength: 0.125
